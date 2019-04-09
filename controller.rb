@@ -11,6 +11,6 @@ end
 
 get "/rps/:hand1/:hand2" do
   game = RPS.new(params[:hand1], params[:hand2])
-  @winner = game.play()
+  @winner = game.play_game()
   erb(:result)
 end

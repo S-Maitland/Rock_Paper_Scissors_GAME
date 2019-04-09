@@ -21,7 +21,7 @@ class RPS
     elsif (@hand1 == 'scissors' && @hand2 == 'paper')
       return "#{@hand1}, has won the game"
     else
-      return "No game play"
+      return "Please select rock, paper or scissors"
     end
   end
 
